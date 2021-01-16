@@ -1,6 +1,6 @@
 <template>
   <div>
-    <slot :data="data" :cache="cache"></slot>
+    <slot :extend="extend" :cache="cache"></slot>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ export default {
   props: {
     cacheId: String,
     cacheName: String,
-    data: Object,
+    extend: Object,
   },
   data() {
     return { cache: {} };
