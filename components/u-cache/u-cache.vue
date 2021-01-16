@@ -13,7 +13,7 @@ export default {
     cacheName: String,
   },
   data() {
-    return { cache: null };
+    return { cache: {} };
   },
   watch: {
     cacheId: {
