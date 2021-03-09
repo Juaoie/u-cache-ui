@@ -1,0 +1,8 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "lib": ["DOM", "ES6"],
+    "types": [],
+    "target": "ES6"
+  }
+}

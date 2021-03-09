@@ -18,6 +18,7 @@ export const memorySize = (str: string): string => {
       totalLength += 4;
     }
   }
-  if (totalLength >= 1024) return (totalLength / 1024).toFixed(2) + "m";
-  else return totalLength + "kb";
+  if (totalLength >= 1024 * 1024) return (totalLength / (1024 * 1024)).toFixed(2) + "MB";
+  if (totalLength >= 1024 && totalLength < 1024 * 1024) return (totalLength / 1024).toFixed(2) + "KB";
+  else return totalLength + "B";
 };

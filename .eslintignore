@@ -1,0 +1,7 @@
+.git
+.vscode
+dist/
+public/
+src/components
+node_modules/
+gulpfile.js
