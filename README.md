@@ -14,7 +14,11 @@
 
 ---
 
-## 二、使用方法
+## 二、安装和使用使用方法
+
+```bash
+yarn add u-cache-ui
+```
 
 ```javascript
 const cache = [
