@@ -53,7 +53,7 @@ _全部配置_
 | readLimitNumber | number                    | false    | 0      | 可读取次数，0 代表不限次数                |
 | getData         | function                  | true     |        | 调用列表的接口方法，返回 Promise<never[]> |
 
-#### 参数 object.cacheIdName
+### 参数 object.cacheIdName
 
 _cacheIdName 类型为 string 表示单个 key 简单合并_
 
